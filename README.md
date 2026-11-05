@@ -217,7 +217,7 @@ Cette analyse permet de diagnostiquer si le modèle souffre de :
 
 ```python
 # Résultats de l'analyse
-SVM : Train=0.988, Validation=0.966 → Bon équilibre ✅
+SVM : Train=0.988, Validation=0.966 → Bon équilibre 
 ```
 
 ---
@@ -239,7 +239,7 @@ SVM : Train=0.988, Validation=0.966 → Bon équilibre ✅
 #### Test ANOVA
 
 - **p-value** : 0.0000
-- **Conclusion** : Différence significative entre les modèles ✅
+- **Conclusion** : Différence significative entre les modèles 
 
 ---
 
@@ -255,7 +255,7 @@ SVM : Train=0.988, Validation=0.966 → Bon équilibre ✅
 
 ---
 
-## 📈 Résultats des Modèles
+## Résultats des Modèles
 
 ### Performance sur le Test Set
 
@@ -269,13 +269,13 @@ SVM : Train=0.988, Validation=0.966 → Bon équilibre ✅
 
 | Modèle | Temps (secondes) |
 |--------|------------------|
-| Naive Bayes | 4.84 ⚡ |
-| Logistic Regression | 4.90 ⚡ |
-| SVM | 20.36 🐢 |
+| Naive Bayes | 4.84  |
+| Logistic Regression | 4.90  |
+| SVM | 20.36 |
 
 ---
 
-## 🏆 Meilleur Modèle : SVM
+##  Meilleur Modèle : SVM
 
 ```python
 # Configuration finale du modèle SVM
@@ -290,9 +290,9 @@ SVM(
 
 | Critère | Performance |
 |---------|-------------|
-| Accuracy | 96.80% ✅ |
-| Biais-Variance | Équilibré ✅ |
-| Robustesse | Excellente ✅ |
+| Accuracy | 96.80% |
+| Biais-Variance | Équilibré  |
+| Robustesse | Excellente  |
 
 ---
 
@@ -304,20 +304,15 @@ Une application web interactive a été développée avec **Streamlit** pour per
 <img src="https://via.placeholder.com/600x300?text=FakeGuard+Interface" alt="Application Screenshot" width="70%">
 </div>
 
-### 🔗 Lien d'accès
+###  Lien d'accès
 
-👉 **[FakeGuard - Détection de Fake News](https://fakeguard-1.onrender.com/)**
+ **[FakeGuard - Détection de Fake News](https://fakeguard-1.onrender.com/)**
 
-### Fonctionnalités
 
-- ✨ Interface utilisateur intuitive
-- 📝 Prédiction en temps réel
-- 📊 Affichage de la confiance du modèle
-- 🎨 Design responsive
 
 ---
 
-## 📊 Matrice de Confusion - SVM
+##  Matrice de Confusion - SVM
 
 ```
                Prédit
@@ -333,19 +328,9 @@ Réel FAKE    ████    ██
 | False Positives | 28 |
 | False Negatives | 24 |
 
----
 
-##  Améliorations Futures
 
-- [ ] Intégration de modèles transformers (BERT, RoBERTa)
-- [ ] Augmentation du dataset
-- [ ] Ajout de features supplémentaires (métadonnées)
-- [ ] Déploiement avec API REST
-- [ ] Support multi-langues
 
----
-
-##  Équipe
 
 Projet réalisé dans le cadre d'un projet de Machine Learning / NLP.
 
