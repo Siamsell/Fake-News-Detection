@@ -49,26 +49,8 @@ flowchart TD
 
 ---
 
-##  Structure du Projet
 
-```
-fake-news-detection/
-│
-├── data/
-│   └── evaluation.csv          # Dataset d'entraînement
-│
-├── notebooks/
-│   └── projet-8-ml.ipynb       # Notebook principal d'analyse
-│
-├── app/
-│   └── FakeGuard/              # Application web Streamlit
-│
-├── models/
-│   ├── best_svm_model.pkl      # Modèle SVM sauvegardé
-│   └── tfidf_vectorizer.pkl    # Vectoriseur sauvegardé
-│
-└── README.md
-```
+
 
 ---
 
@@ -344,12 +326,4 @@ Projet réalisé dans le cadre d'un projet de Machine Learning / NLP.
 
 ---
 
-## Licence
 
-Ce projet est distribué sous licence MIT.
-
----
-
-<div align="center">
-**⭐ N'hésitez pas à mettre une étoile sur le dépôt si ce projet vous a été utile !** ⭐
-</div>
