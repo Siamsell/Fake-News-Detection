@@ -162,20 +162,6 @@ flowchart TD
 
 ---
 
-### Optimisation des Hyperparamètres (GridSearch)
-
-```mermaid
-flowchart LR
-    subgraph Grille [Grille d'Hyperparamètres]
-        P1[svm__C: 0.1, 1, 10]
-        P2[svm__kernel: linear, rbf]
-        P3[tfidf__max_df: 0.8, 1.0]
-        P4[tfidf__min_df: 1, 5]
-        P5[tfidf__ngram_range: (1,2)]
-    end
-    
-    Grille --> GS[GridSearchCV]
-    GS --> Best[Meilleurs paramètres]
 ```
 
 **Meilleurs paramètres trouvés :**
